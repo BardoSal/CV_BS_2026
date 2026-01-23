@@ -8,7 +8,7 @@ const Experience = () => {
       <div className="max-w-4xl mx-auto">
         {/* Section Header */}
         <h2 className="text-3xl font-bold text-zinc-900 dark:text-zinc-100 mb-12 flex items-center gap-4">
-          Professional Experience
+          Experiencia profesional
           <div className="h-px flex-1 bg-zinc-200 dark:bg-zinc-800"></div>
         </h2>
 
@@ -26,7 +26,7 @@ const Experience = () => {
               {/* Job Header: Role & Period */}
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-2 mb-3">
                 <h3 className="text-xl font-bold text-zinc-900 dark:text-zinc-100">
-                  {job.role} <span className="text-zinc-400 font-normal">at</span> {job.company}
+                  {job.role} <span className="text-zinc-400 font-normal">en</span> {job.company}
                 </h3>
                 <span className="text-sm font-medium text-zinc-500 dark:text-zinc-500 font-mono">
                   {job.period}

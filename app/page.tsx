@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <main className="bg-white dark:bg-zinc-950 min-h-screen">
       <Hero />
-      <Skills />
       <Experience />
+      <Skills />
       <Projects />
       <Contact /> {/* Place it at the end */}
     </main>

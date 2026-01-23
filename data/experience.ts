@@ -9,9 +9,9 @@ export interface Job {
 
 export const jobs: Job[] = [
   {
-    company: "Future Tech Solutions",
-    role: "Lead Developer",
-    period: "2024 — Present",
+    company: "Sustrato Urbano",
+    role: "Consultor externo",
+    period: "2025 — Actualidad",
     description: "Architecting modern web applications using Next.js and Cloudflare Workers. Leading a team of 4 developers to deliver high-quality codebases.",
     tech: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL"]
   },

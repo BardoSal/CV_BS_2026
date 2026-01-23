@@ -25,23 +25,23 @@ const Hero = () => {
         </div>
 
         {/* Text content... */}
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-100 mb-6">
-          I'm <span className="text-blue-600">Your Name</span>. Bardo
+        <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mb-6">
+          <span className="text-blue-600"> Bardo Salgado</span>
+        </h1>
+
+        <h1 className="text-5xl md:text-4xl font-normal tracking-tight text-zinc-900 dark:text-zinc-100 mb-6">
+          Especialista en planificación urbana y análisis territorial para la toma de decisiones basadas en evidencia
         </h1>
 
         {/* Updated Social Links Section */}
-        <div className="flex flex-wrap gap-6 items-center">
+        <div className="flex flex-wrap gap-4 items-center">
           <button 
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-            className="px-8 py-3 bg-zinc-900 text-white rounded-xl font-semibold hover:bg-zinc-800 transition-all dark:bg-zinc-100 dark:text-zinc-900 shadow-lg"
-          > View my work
+            className="px-8 py-3 bg-zinc-900 text-white rounded-xl font-semibold hover:text-blue-600  transition-all dark:bg-zinc-100 dark:text-zinc-900 shadow-lg"
+          > Proyectos
           </button>
           
           <div className="flex gap-2">
-            <a href={socials.github} target="_blank" rel="noopener noreferrer" 
-               className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
-              <Github size={22} />
-            </a>
             <a href={socials.linkedin} target="_blank" rel="noopener noreferrer"
                className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
               <Linkedin size={22} />
@@ -49,6 +49,10 @@ const Hero = () => {
             <a href={socials.email}
                className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
               <Mail size={22} />
+            </a>
+            <a href={socials.github} target="_blank" rel="noopener noreferrer" 
+               className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
+              <Github size={22} />
             </a>
             <a href={socials.resume} target="_blank"
                className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
