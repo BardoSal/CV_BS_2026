@@ -9,24 +9,67 @@ export interface Job {
 
 export const jobs: Job[] = [
   {
-    company: "Sustrato Urbano",
-    role: "Consultor externo",
+    company: "Independiente",
+    role: "Consultor independiente",
     period: "2025 — Actualidad",
-    description: "Architecting modern web applications using Next.js and Cloudflare Workers. Leading a team of 4 developers to deliver high-quality codebases.",
-    tech: ["Next.js", "TypeScript", "Tailwind", "PostgreSQL"]
+    description: "Experiencia en la identificación y priorización de carteras de proyectos estratégicos para organismos federales (SEDATU, SICT, BANOBRAS). Análisis de datos demográficos y socioeconómicos para la detección de zonas vulnerables. Experiencia en diseño y programación de herramientas mediante IA Generativa para la toma de decisiones en desarollo urbano, mitigación de islas de calor urbanas y gestión de residuos sólidos.",
+    tech: ["Liderazgo y persuasión", "Pensamiento Estratégico", "Adaptabilidad e Innovación","QGIS", "Python"]
   },
   {
-    company: "Digital Dreams Agency",
-    role: "Frontend Developer",
-    period: "2022 — 2024",
-    description: "Built high-speed landing pages and integrated headless CMS systems for international clients. Focused on performance and accessibility.",
-    tech: ["React", "Framer Motion", "Sanity", "GraphQL"]
+    company: "CAPSUS",
+    role: "Especialista en Planificación Urbana",
+    period: "2023 — 2025",
+    description: "Análisis geoespacial avanzado y elaboración de modelos para fundamentar políticas públicas de crecimiento urbano y adaptación climática. Sólida capacidad en el desarrollo de escenarios de crecimiento urbano para orientar inversiones de alto impacto y climáticamente inteligentes. Análisis de brechas y alineación estratégica entre stakeholders mediante talleres y mesas de trabajo.",
+    tech: ["Liderazgo y persuasión", "QGIS", "RStudio","Pensamiento Estratégico"]
   },
   {
-    company: "Startup Hub",
-    role: "Junior Developer",
-    period: "2020 — 2022",
-    description: "Developed and maintained internal tools and dashboards. Collaborated with design teams to implement pixel-perfect user interfaces.",
-    tech: ["JavaScript", "HTML/CSS", "Git", "Figma"]
+    company: "Local y Global Ideas",
+    role: "Consultor Jr. en Movilidad Urbana",
+    period: "2022",
+    description: "Fortalecimiento de capacidades a nivel municipal para la actualización de planes de desarrollo urbano. Experiencia en la estructuración de metodologías de análisis urbano (barrio, personas y continuo municipal) a nivel local",
+    tech: ["Liderazgo y persuasión", "QGIS", "RStudio","Pensamiento Estratégico"]
+  },
+   {
+    company: "Coord. de Desarrollo Urbano Alc. Álvaro Obregón",
+    role: "Asistente técnico",
+    period: "2021 - 2022",
+    description: "Análisis técnico normativo de expedientes y trabajos de obra menor. Experiencia en la optimización de sistemas de gestión de información, logrando una reducción significativa en los tiempos de procesamiento y una mejora sustancial en la trazabilidad de datos para obras activas. Capacidad de vinculación institucional, con distintos departamentos de la alcaldía..",
+    tech: ["Organización y gestión de proyectos", "Google Workspace", "Adaptabilidad e Innovación"]
+  }, 
+  {
+    company: "Departamento de Planeación Urbana Fellbach",
+    role: "Practicante",
+    period: "2021",
+    description: "Análisis espacial en temas de movilidad, vivienda y diseño urbano, proporcionando los datos críticos necesarios para la toma de decisiones estratégicas del departamento. Sólida capacidad de gestión al coordinar la logística y los contenidos del proyecto internacional IBA27 («Agriculture meets Manufacturing»), garantizando comunicación efectiva entre las diversas partes interesadas de la comunidad y el sector industrial.",
+    tech: ["Fortalecimiento de capacidades", "QGIS", "Gestión con Stakeholders", "Adaptabilidad e Innovación"]
+  },
+  {
+    company: "Universidad Bauhaus Weimar, Weimar",
+    role: "Asistente de Investigación",
+    period: "2020",
+    description: "Experiencia en el entorno de investigación europeo dentro del Bauhaus.Mobility Lab. Modelación de la infraestructura de movilidad urbana para el proyecto 'FraMo: Mobility as a Service' (MaaS). Liderazgo técnico al impartir capacitación especializada en QGIS y análisis de redes, logrando elevar las competencias analíticas y estandarizar el uso de herramientas geoespaciales en proyectos de movilidad urbana.",
+    tech: ["Fortalecimiento de capacidades", "QGIS","Adaptabilidad e Innovación","Investigación aplicada"]
+  },
+  {
+    company: "Cal y Mayor y Asociados",
+    role: "Consultor Jr. en Movilidad Urbana",
+    period: "2018 - 2019",
+    description: "Análisis de datos para la estructuración de sistemas de transporte público. Evaluacion de indicadores clave de rendimiento (KPIs) y patrones de movilidad mediante el uso avanzado de QGIS y Excel, generando inputs técnicos y financieros críticos para modelos de transporte público. Interpretación de dinámicas urbanas asegurando que las propuestas de movilidad respondan a las necesidades reales de demanda",
+    tech: [ "QGIS","Pensamiento Estratégico","Adaptabilidad e Innovación","Excel"]
+  },
+  {
+    company: "Laboratorio de Movilidad Urbana e Infraestructura Verde",
+    role: "Consultor Jr. en movilidad urbana",
+    period: "2018",
+    description: "Liderazgo operativo para la recolección de datos de microsimulación y auditorías de espacio público.",
+    tech: ["QGIS","Excel","Adaptabilidad e Innovación","Investigación aplicada"]
+  },
+    {
+    company: "Transconsult México",
+    role: "Consultor Jr. en desarrollo urbano",
+    period: "2017 - 2017",
+    description: "Experiencia en la formulación de Planes Integrales de Movilidad Urbana Sostenible (PIMUS) en Latinoamérica (México y Bolivia). Especialista en definir estrategias de movilidad no motorizada y diseño vial de alto impacto, establecienddo estándares de diseño urbano para optimizar la accesibilidad peatonal y ciclista en corredores de alto flujo.",
+    tech: ["QGIS", "RStudio","Pensamiento Estratégico","Adaptabilidad e Innovación","Excel","Autocad"]
   }
+  
 ];

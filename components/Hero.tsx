@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { Github, Linkedin, Mail, FileText } from 'lucide-react';
+import { Github, Linkedin, FileText, GalleryVerticalEnd } from 'lucide-react';
 import { socials } from '@/data/socials'; // Import your links
 
 const Hero = () => {
@@ -20,7 +20,7 @@ const Hero = () => {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
                 </span>
-                Available for hire
+                Abierto a colaboraciones
             </div>
         </div>
 
@@ -46,17 +46,17 @@ const Hero = () => {
                className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
               <Linkedin size={22} />
             </a>
-            <a href={socials.email}
-               className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
-              <Mail size={22} />
-            </a>
             <a href={socials.github} target="_blank" rel="noopener noreferrer" 
                className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
               <Github size={22} />
             </a>
-            <a href={socials.resume} target="_blank"
+            <a href="/resume_esp.pdf" target="_blank"
                className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
               <FileText size={22} />
+            </a>
+            <a href="/portfolio_esp.pdf" target="_blank" rel="noopener noreferrer"
+               className="p-3 text-zinc-500 hover:text-blue-600 transition-all">
+              <GalleryVerticalEnd size={22} />
             </a>
           </div>
         </div>

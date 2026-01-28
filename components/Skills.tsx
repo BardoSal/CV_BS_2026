@@ -7,11 +7,11 @@ const Skills = () => {
 
   return (
     // Changed bg-white to bg-zinc-950 and border-zinc-100 to border-zinc-900
-    <section className="py-16 px-6 bg-zinc-950 border-t border-zinc-900">
+    <section className="py-16 px-6 bg-zinc-50 dark:bg-zinc-950/50">
       <div className="max-w-4xl mx-auto">
         {/* Changed text-zinc-900 to text-white */}
-        <h2 className="text-2xl font-bold text-white mb-12 flex items-center gap-4">
-          Expertise
+        <h2 className="text-2xl font-bold text-black mb-12 flex items-center gap-4">
+          Habilidades
           <div className="h-px flex-1 bg-zinc-900"></div>
         </h2>
         
@@ -27,7 +27,7 @@ const Skills = () => {
                     // Updated pill: bg-zinc-900, border-zinc-800, and light text
                     <span 
                       key={skill.name} 
-                      className="px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-lg text-sm text-zinc-300 hover:border-blue-500/50 transition-colors"
+                      className="px-3 py-1  bg-zinc-300 dark:bg-zinc-700 group-hover:bg-blue-600 dark:group-hover:bg-blue-500 transition-colors duration-300 text-xs font-semibold rounded-md border border-zinc-200 dark:border-zinc-800 hover:border-blue-500 dark:hover:border-blue-500 hover:text-blue-600 dark:hover:text-blue-400 cursor-default"
                     >
                       {skill.name}
                     </span>
