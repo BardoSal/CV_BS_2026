@@ -30,7 +30,7 @@ const Hero = () => {
         </h1>
 
         <h1 className="text-5xl md:text-4xl font-normal tracking-tight text-zinc-900 dark:text-zinc-100 mb-6">
-          Especialista en planificación urbana y análisis territorial para la toma de decisiones basadas en evidencia
+          Especialista en planificación urbana y análisis territorial. Ayudo a tomar decisiones basadas en datos y desarrollar estrategias de adaptación a través de escenarios urbanos 
         </h1>
 
         {/* Updated Social Links Section */}
