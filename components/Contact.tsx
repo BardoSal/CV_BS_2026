@@ -48,24 +48,22 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           {/* Left Side: Info */}
           <div>
-            <h3 className="text-xl font-semibold text-white mb-4 italic">Let's connect.</h3>
+            <h3 className="text-xl font-semibold text-white mb-4 italic">Envíame un mensaje.</h3>
             <p className="text-zinc-400 mb-8 leading-relaxed">
-              I am interested in opportunities regarding urban planning, 
-              territorial analysis, and geospatial data projects.
-            </p>
-            
+              Estoy disponible para colaboraciones estratégicas y consultoría externa en proyectos de planificación urbana, ordenamiento territorial y análisis de datos geoespaciales para la toma de decisiones
+            </p> 
             <div className="space-y-4">
               <div className="flex items-center gap-4 text-zinc-300">
                 <div className="p-3 bg-zinc-900 rounded-lg border border-zinc-800">
                   <Mail size={20} className="text-blue-500" />
                 </div>
-                <span>bardo.salgado@gmailcom</span>
+                <span>bardo.salgado.mx@gmailcom</span>
               </div>
               <div className="flex items-center gap-4 text-zinc-300">
                 <div className="p-3 bg-zinc-900 rounded-lg border border-zinc-800">
                   <MapPin size={20} className="text-blue-500" />
                 </div>
-                <span>City, Country</span>
+                <span>Ciudad de México, México</span>
               </div>
             </div>
           </div>
@@ -82,7 +80,7 @@ const Contact = () => {
               <input 
                 type="text" 
                 name="name" 
-                placeholder="Full Name" 
+                placeholder="Nombre" 
                 required 
                 className="w-full px-4 py-3 rounded-xl bg-zinc-900 border border-zinc-800 text-white placeholder:text-zinc-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
               />
@@ -92,7 +90,7 @@ const Contact = () => {
               <input 
                 type="email" 
                 name="email" 
-                placeholder="Email Address" 
+                placeholder="Email" 
                 required 
                 className="w-full px-4 py-3 rounded-xl bg-zinc-900 border border-zinc-800 text-white placeholder:text-zinc-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
               />
@@ -102,7 +100,7 @@ const Contact = () => {
               <textarea 
                 name="message" 
                 rows={4} 
-                placeholder="How can I help you?" 
+                placeholder="¿Cómo puedo ayudarte?" 
                 required 
                 className="w-full px-4 py-3 rounded-xl bg-zinc-900 border border-zinc-800 text-white placeholder:text-zinc-600 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
               ></textarea>
@@ -112,7 +110,7 @@ const Contact = () => {
               type="submit"
               className="w-full py-4 bg-white text-zinc-950 font-bold rounded-xl hover:bg-blue-500 hover:text-white transition-all flex items-center justify-center gap-2 group"
             >
-              Send Message
+              Enviar mensaje
               <Send size={18} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
             </button>
 
